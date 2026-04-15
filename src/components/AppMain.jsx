@@ -1,5 +1,6 @@
 export default function AppMain() {
     return (
-        <h1>main</h1>
+        <p>--&gt; Content goes here &lt;--</p>
+
     )
 }
