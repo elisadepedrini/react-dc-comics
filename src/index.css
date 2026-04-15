@@ -48,6 +48,33 @@ main {
 
 
 
+/* PRODUCTS SECTION */
+.products {
+    background-color: rgb(33, 123, 192);
+    min-height: 13vh;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+
+    .single-product {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        width: 12rem;
+
+        img {
+            width: 14%;
+        }
+
+        h4 {
+            font-size: 10px;
+            color: white;
+            font-weight: 200;
+        }
+    }
+}
+
+
 /* APP FOOTER */
 footer {
     min-height: 50vh;
