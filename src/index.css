@@ -1,1 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
+
+/* APP HEADER */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 5rem;
+
+    nav {
+        margin: auto 0;
+    
+        a{
+            text-decoration: none;
+            padding: 0 0.7rem;
+            color: black;
+            font-size: 10px;
+        }
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+        margin: auto 0;
+    }
+}
+
+
+
+/* APP MAIN */
+
+main {
+    background-color: black;
+    color: white;
+    min-height: 13vh;
+
+    p {
+        padding: 2rem;
+        
+    }
+}
+
+
+
+/* APP FOOTER */
+footer {
+    min-height: 50vh;
+    background-image: url('./dc-comics-1/img/dc-logo-bg.png'), url('./dc-comics-1/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 30%, cover;
+    background-position: center right, center center;
+
+    h4 {
+        color: white;
+        margin-top: 1rem;
+    }
+
+    a {
+        color: grey;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}
+
+.container {
+    width: 40%;
+    padding: 2rem 3rem 0 14rem;
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
