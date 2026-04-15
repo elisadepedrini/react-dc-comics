@@ -2,6 +2,7 @@ import AppHeader from './components/AppHeader'
 import AppMain from './components/AppMain'
 import AppFooter from './components/AppFooter'
 import AppProducts from './components/AppProduct'
+import AppFollow from './components/AppFollow'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AppMain />
       <AppProducts />
       <AppFooter />
+      <AppFollow />
     </>
   )
 }

@@ -106,3 +106,38 @@ footer {
     justify-content: space-evenly;
     
 }
+
+
+
+/* APP FOLLOW */
+
+.end-section {
+    background-color: rgb(69, 66, 66);
+    min-height: 12vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        border: 2px solid rgb(33, 123, 192);
+        background: transparent;
+        color: white;
+        padding: 0.8rem;
+        margin: 1.3rem 0;
+    }
+
+
+    .follow {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+
+        h4 {
+            color: rgb(33, 123, 192);
+        }
+
+        img {
+            width: 70%;
+        }
+    }
+}
