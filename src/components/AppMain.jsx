@@ -1,10 +1,19 @@
-// import 'bootstrap/dist/css/bootstrap.min.css'
+import jumbotron from '../assets/dc-comics-1/img/jumbotron.jpg'
 import comics from "../assets/dc-comics-2/comics"
 
 export default function AppMain() {
     return (
         <>
         <main>
+
+            <div className='hero-section'>
+                <img src={jumbotron} alt="Jumbotron" className='jumbotron'/>
+            <div className="button-main-top">
+                <button className="btn mb-3">CURRENT SERIES</button>
+            </div>
+            </div>
+
+
             <div className="container">
                 <div className="grid">
                     {comics.map((el) => (
@@ -18,6 +27,9 @@ export default function AppMain() {
                         </div>
                     ))}
                 </div>
+            </div>
+            <div className="button-main-bottom">
+                <button className="btn mb-3">LOAD MORE</button>
             </div>
         </main>
         </>
