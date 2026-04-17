@@ -1,4 +1,4 @@
-import logoImg from '../dc-comics-1/img/dc-logo.png'
+import logoImg from '../assets/dc-comics-1/img/dc-logo.png'
 
 export default function Navbar() {
 

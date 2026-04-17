@@ -37,13 +37,32 @@ header {
 
 main {
     background-color: black;
-    color: white;
     min-height: 13vh;
-
-    p {
-        padding: 2rem;
-        
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(6, 150px);
+        gap: 16px;
+        justify-content: center;
     }
+
+        .card {
+            background: transparent;
+            color: white;
+            
+            img {
+                width: 100px;
+                height: 100px;
+            }
+
+                .card-body {
+                    font-size: 9px;
+                    font-weight: 200;
+                    text-align: start;
+                    margin-top: 10px;
+                } 
+    }
+
 }
 
 

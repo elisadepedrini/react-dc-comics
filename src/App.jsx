@@ -1,3 +1,4 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import AppHeader from './components/AppHeader'
 import AppMain from './components/AppMain'
 import AppFooter from './components/AppFooter'

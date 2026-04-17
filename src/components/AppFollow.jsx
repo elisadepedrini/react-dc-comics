@@ -1,8 +1,8 @@
-import facebookImg from '../dc-comics-1/img/footer-facebook.png'
-import twitterImg from '../dc-comics-1/img/footer-twitter.png'
-import youtubeImg from '../dc-comics-1/img/footer-youtube.png'
-import pinterestImg from '../dc-comics-1/img/footer-pinterest.png'
-import periscopeImg from '../dc-comics-1/img/footer-periscope.png'
+import facebookImg from '../assets/dc-comics-1/img/footer-facebook.png'
+import twitterImg from '../assets/dc-comics-1/img/footer-twitter.png'
+import youtubeImg from '../assets/dc-comics-1/img/footer-youtube.png'
+import pinterestImg from '../assets/dc-comics-1/img/footer-pinterest.png'
+import periscopeImg from '../assets/dc-comics-1/img/footer-periscope.png'
 
 export default function AppFollow() {
     return(
