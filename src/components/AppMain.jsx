@@ -1,5 +1,6 @@
 import jumbotron from '../assets/dc-comics-1/img/jumbotron.jpg'
 import comics from "../assets/dc-comics-2/comics"
+import ProductComics from './productComics'
 
 export default function AppMain() {
     return (
@@ -17,14 +18,18 @@ export default function AppMain() {
             <div className="container">
                 <div className="grid">
                     {comics.map((el) => (
-                        <div key={el.id}>
+                        <>
+                        {/* <div key={el.id}>
                             <div className="card">
                               <img src={el.thumb} alt="el.title" />
                               <div className="card-body p-1">
                                 <p>{el.series.toUpperCase()}</p>
                               </div>
                             </div>
-                        </div>
+                        </div> */}
+                        
+                        <ProductComics key={el.id} thumb={el.thumb} series={el.series}/>
+                        </>
                     ))}
                 </div>
             </div>
